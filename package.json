@@ -1,0 +1,21 @@
+{
+  "name": "Sauce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cucumber-js Feature/E2E_Flow.feature"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^7.3.1",
+    "chromedriver": "^93.0.1",
+    "selenium-webdriver": "*"
+  },
+  "devDependencies": {
+    "cucumber": "^7.0.0-rc.0",
+    "selenium-webdriver": "*"
+  }
+}
